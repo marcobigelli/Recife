@@ -14,17 +14,18 @@ a:hover {
     color: #F00;
 }
 
-body{
-    background-color: rgb(236, 238, 219);
+img{
     background-image: url("img/recife2.png");
-    background-repeat: no-repeat;
-    background-size : 100%;
+    background-size: 100%;  
+    background-repeat: no repeat;
     background-position: center;
+
+    
     
 }
 
 
-h1{
+.titulo{
     font-size: 50px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -38,7 +39,7 @@ img{
   margin: auto;  
   display: block;
   border-radius: 15px
-}
+} 
 
 article{
     margin-left: 40px;
