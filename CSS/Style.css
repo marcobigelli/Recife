@@ -1,58 +1,54 @@
-a:link {
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+a{
     text-decoration: none;
 }
-   
-a:hover {
-    text-decoration: underline;
-}
- 
-a:link {
-    color: #00F;
-}
-   
-a:hover {
-    color: #F00;
-}
-
-img{
-    background-image: url("img/recife2.png");
-    background-size: 100%;  
-    background-repeat: no repeat;
-    background-position: center;
-
-    
-    
-}
-
 
 .titulo{
-    font-size: 50px;
+    margin: 30px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    border-style:double; 
-    border-radius: 10px;
-    border-color: coral;
+    border: double 5px coral;
+    border-radius: 520px 50px 520px 50px;
+         
 }
 
 img{
-  margin: auto;  
-  display: block;
-  border-radius: 15px
-} 
-
-article{
-    margin-left: 40px;
-    margin-right: 40px;
-    line-height: 40px;
-
+    margin: auto;  
+    display: block;
+    border-radius: 15px;
+    height: 300px
+      
+       
 }
 
-li{
-    text-decoration: none;
-    list-style-type: none;
-    display: inline;    
-    padding-right: 10rem;
-    color: coral   
+.texto{
+    padding: 30px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+         
+}
 
+aside{
+    padding: 30px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-image: url(../img/recife2.png);
+    background-size: cover;  
+    background-position: 50% 50%;
+   
 }
