@@ -1,11 +1,18 @@
-h1{
-    font-size: 50px;
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    height: 100vh;
+        
+}
+
+.titulo{
+    margin: 30px;
+    padding: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    border-style:double; 
-    border-radius: 10px;
-    border-color: coral;
+    border: double 5px coral;
+    border-radius: 520px 50px 520px 50px;
 
 }
 
@@ -20,7 +27,7 @@ a:link {
 }
    
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
  
 a:link {
@@ -31,8 +38,18 @@ a:hover {
     color: #F00;
 }
 
-a{
-    font-size: 50px;
-    padding: 46%;
+
+body{
+    background-image: url(../img/recife2.png);
+    background-size: cover;  
+    background-position: 50% 50%;
+   
 }
 
+li{
+    display:inline;
+    padding: 30px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+        
+}
